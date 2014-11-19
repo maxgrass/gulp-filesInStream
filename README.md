@@ -27,9 +27,13 @@ gulp.task('myTask', function(){
 ## API
 
 gulp-filesInStream can be called:
+
 a. without parameters, so default chalk.white.bold is used
+
 b. with chalk parameter, e.g. chalk.bgRed.bold
+
 c. with chalk AND message prefix, e.g. 'FILE TO BE COMPILED:'
+
 
 ### filesInStream([chalkOptions[, stringMessagePrefix])
 
