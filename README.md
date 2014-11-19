@@ -6,14 +6,14 @@
 First, install `gulp-filesInStream` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-filesInStream
+npm install --save-dev gulp-filesinstream
 npm install --save-dev chalk
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var filesInStream = require('gulp-filesInStream'),
+var filesInStream = require('gulp-filesinstream'),
     chalk = require('chalk');
 
 gulp.task('myTask', function(){
